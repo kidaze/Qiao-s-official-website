@@ -1,0 +1,111 @@
+/*手机端css控制*/
+@media only screen and (max-width: 420px) {
+	body{
+		font-size: 15px;
+	}
+	
+	#introduce_head{
+		background:rgb(240,240,240);
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		display: flex;
+    	flex-direction: column;
+    	text-align: center;
+    	justify-content: center;
+	}
+	
+	.desktop{
+		display:none !important;
+	}
+	
+	.text_tech{
+	height: inherit;
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+	}
+}
+
+/*电脑端css控制*/
+@media only screen and (min-width: 421px) {
+	body{
+		font-size:15px ;
+	}
+	
+	#introduce_head{
+		background: url(../img/intro1.png);
+		background-size: 100% 100%;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		display: flex;
+    	flex-direction: column;
+    	text-align: center;
+    	justify-content: center;
+	}
+	
+	.mobile{
+		display:none !important;
+	}
+	
+	.text_tech{
+	height: inherit;
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+	}
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	color: rgb(83,83,83);
+	background: rgb(249,249,249);
+}
+	
+#nav{
+	background: #2ABFC0;
+	width: 100%;
+	border: 0;
+	opacity: 0.9;
+}
+
+#nav a:link    {color:white;text-decoration: none;}
+#nav a:visited {color:whitesmoke;text-decoration: none;}
+#nav a:hover   {color:grey;background-color:white;text-decoration: none;}
+#nav a:active  {color:darkcyan;text-decoration: none;}
+
+#introduce_tech{
+	width: 100%;
+	height: auto;
+	background-color:rgb(249,249,249);
+	color: rgb(83,83,83);
+
+}
+
+.tech{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 5%;
+}
+
+.double{
+	background-color: rgb(249,249,249);
+}
+
+.odd{
+	background-color: rgb(240,240,240);
+}
+
+.img{
+	margin-top: 5%;
+	width:auto;
+ 	height:auto;
+ 	max-width:100%;
+ 	max-height:100%;
+}

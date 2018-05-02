@@ -1,0 +1,17 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+	
+#nav{
+	background: #2ABFC0;
+	width: 100%;
+	border: 0;
+	opacity: 0.9;
+}
+
+#nav a:link    {color:white;text-decoration: none;}
+#nav a:visited {color:whitesmoke;text-decoration: none;}
+#nav a:hover   {color:grey;background-color:white;text-decoration: none;}
+#nav a:active  {color:darkcyan;text-decoration: none;}

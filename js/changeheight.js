@@ -1,0 +1,16 @@
+$(function(){
+//改变div的高度
+    $("#header_pic").height($(window).height());
+});
+$(function(){
+//改变div的高度
+    $(".introduce_tech").height($(window).height());
+});
+$(function(){
+//改变div的高度
+    $(".img").max-height($(window).height());
+});
+$(function(){
+//改变div的高度
+    $("#introduce_head").height($(window).height());
+});
